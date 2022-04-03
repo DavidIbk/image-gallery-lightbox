@@ -91,8 +91,8 @@ nav{
   .nav-links{ /* THIS CODES (I.E. POSITION, RIGHT AND HEIGHT MAKE THE NAVLINKS AND BUTTTON DISAPPEAR ON MOBILE)). IT ALSO CREATES THE MOBILE DROPDOWN NAVBAR */
     position: absolute;
     right: 0;
-    height: 72vh; /*creates the height of the dropdown*/
-    width: 50%; /*creates the width of the dropdown*/
+    height: 82vh; /*creates the height of the dropdown*/
+    width: 100%; /*creates the width of the dropdown*/
     margin-top: 0; /*ensures that there is no spacing between the dropdown and the navbar above it*/
     top: 8vh; /*This carries the dropdown up and down vertically. It should correspond to min-height used for the nav */
     background-color: #274f73;
