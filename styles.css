@@ -96,7 +96,7 @@ nav{
     display: flex; /*serves as a pre-creator to the dropdown*/
     flex-direction: column; /*creates the dropdown*/
     align-items: center; /*This makes our navlinks and buttton come to the center of the dropdown*/
-    transform: translateX(100%); /*this moves the whole dropdown off the screen*/
+    transform: translateY(-110%); /*this moves the whole dropdown off the screen*/
     transition: transform 0.5s ease-in; /*This transitions the transform. That is, the dropdown leaves the screen gradually and not at once*/
     z-index: 200; /*This makes the dropdown to be above everything on screen*/
 }
@@ -113,17 +113,17 @@ nav{
 /*BACK TO DESKTOP VIEW*/
 
 .nav-active{ /*note that this class is only activated by javascript*/
-  transform: translateX(0%); /*when we click on the burger, the navigation should get the zero transform, that is it comes onscreen*/
+  transform: translateY(0%); /*when we click on the burger, the navigation should get the zero transform, that is it comes onscreen*/
 }
 
 @keyframes navLinkFade {  /* Animation for our links inside our navbar dropdown. Used inside Javascript */
   from{
       opacity: 0;
-      transform: translateX(50px);
+      transform: translateY(50px);
   }
   to{
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 
@@ -348,7 +348,7 @@ nav{
 @media screen and (max-width: 768px){
   .our-ministries-button{
     position: absolute;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px;
     width: 7rem;
   }
 }
@@ -384,10 +384,10 @@ nav{
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0.9);
+  transform: translate(-50%, -50%) scale(0.5);
   background: #fff;
-  max-width: 50%;
-  width: 100%;
+  max-width: 700px;
+  width: 70%;
   z-index: 5;
   opacity: 0;
   pointer-events: none;
