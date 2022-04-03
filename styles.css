@@ -22,6 +22,9 @@ nav{
   min-height: 8vh;
   background-color: #274f73;
   font-family: "Poppins", sans-serif;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
 .nav-links{
@@ -88,7 +91,7 @@ nav{
   .nav-links{ /* THIS CODES (I.E. POSITION, RIGHT AND HEIGHT MAKE THE NAVLINKS AND BUTTTON DISAPPEAR ON MOBILE)). IT ALSO CREATES THE MOBILE DROPDOWN NAVBAR */
     position: absolute;
     right: 0;
-    height: 92vh; /*creates the height of the dropdown*/
+    height: 72vh; /*creates the height of the dropdown*/
     width: 50%; /*creates the width of the dropdown*/
     margin-top: 0; /*ensures that there is no spacing between the dropdown and the navbar above it*/
     top: 8vh; /*This carries the dropdown up and down vertically. It should correspond to min-height used for the nav */
@@ -144,10 +147,8 @@ nav{
 .hero-1{
   background-image: url(https://images2.imgbox.com/93/f2/yWgW0och_o.jpg);
   background-repeat: repeat;
-  background-size: cover;
-  /* background-attachment: fixed; */
-  background-position: center;
-  height: 92vh;
+  background-size: cover;  background-position: center;
+  height: 100vh;
   position: relative;
   text-align: center;
 }
@@ -156,9 +157,8 @@ nav{
   background-image: url(https://images2.imgbox.com/54/e4/iE1DVizG_o.jpg);
   background-repeat: repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
   background-position: center;
-  height: 92vh;
+  height: 100vh;
   position: relative;
   text-align: center;
 }
@@ -168,10 +168,15 @@ nav{
   color: #d1d1d1;
   text-align: center;
   position: absolute;
-  padding: 15%; /*It is preferable and more screen-responsive to use padding (in %) to position elements when using, "position: absolute;" */
+  padding: 20%; /*It is preferable and more screen-responsive to use padding (in %) to position elements when using, "position: absolute;" */
   z-index: 1;
 }
 
+@media screen and (max-width: 968px){
+  .carousel-text{
+    padding: 30%;
+  }
+}
 
 .big-title{
   font-weight: 600;
