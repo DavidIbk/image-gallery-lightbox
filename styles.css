@@ -89,7 +89,7 @@ nav{
     position: absolute;
     right: 0;
     height: 92vh; /*creates the height of the dropdown*/
-    width: 40%; /*creates the width of the dropdown*/
+    width: 50%; /*creates the width of the dropdown*/
     margin-top: 0; /*ensures that there is no spacing between the dropdown and the navbar above it*/
     top: 8vh; /*This carries the dropdown up and down vertically. It should correspond to min-height used for the nav */
     background-color: #274f73;
@@ -349,7 +349,7 @@ nav{
   .our-ministries-button{
     position: absolute;
     padding: 20px 20px 20px 20px;
-    width: 15rem;
+    width: 7rem;
   }
 }
 
@@ -386,7 +386,7 @@ nav{
   left: 50%;
   transform: translate(-50%, -50%) scale(0.9);
   background: #fff;
-  max-width: 700px;
+  max-width: 50%;
   width: 100%;
   z-index: 5;
   opacity: 0;
