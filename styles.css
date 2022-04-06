@@ -135,7 +135,7 @@ nav{
     align-items: center; /*This makes our navlinks and buttton come to the center of the dropdown*/
     transform: translateY(-110%); /*this moves the whole dropdown off the screen*/
     transition: transform 0.5s ease-in; /*This transitions the transform. That is, the dropdown leaves the screen gradually and not at once*/
-    z-index: 200; /*This makes the dropdown to be above everything on screen*/
+    z-index: 20; /*This makes the dropdown to be above everything on screen*/ /*apparently, this doesn't work. our dropdown works with the z-index of .nav and not .nav-links*/
 }
   .nav-links li{
     opacity: 0; /*this modifies our dropdown such that at first the links and butttons are not seen, before they slowly appear*/
@@ -561,7 +561,7 @@ nav{
   }
   .testimonial-image{
     display: block;
-    height: 60vh;
+    height: 500px;
   }
 }
 
