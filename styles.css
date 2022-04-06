@@ -633,12 +633,16 @@ nav{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-row-gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
 @media screen and (max-width: 768px){
   .our-blog-row{
     grid-template-columns: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
