@@ -788,6 +788,15 @@ nav{
   right: 0;
 }
 
+@media screen and (max-width: 770px){
+  .about-our-pastor-image{
+    text-align: justify;
+  }
+  .position-absolute{
+    left: 30px;
+  }
+}
+
 .about-pastor-bio{
   text-align: left;
   padding-top: 130px;
