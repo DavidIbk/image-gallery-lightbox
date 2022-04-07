@@ -688,6 +688,7 @@ nav{
   padding: 30px;
   display: grid;
   grid-template-columns: 50% 50%;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -702,14 +703,14 @@ nav{
 
 .underline6{
     height: 5px;
-    width: 100px;
+    width: 83px;
     background-color: #ead94c;
     margin: 0 0 15px;
 }
 
 .underline7{
   height: 5px;
-  width: 138px;
+  width: 115px;
   background-color: #ead94c;
   margin: 0 0 15px;
 }
@@ -725,4 +726,232 @@ nav{
   margin-top: 15px;
   padding: 10px 10px;
   width: 40%;
+}
+
+/*ABOUT.HTML*/
+.banner{
+  background-image: url(https://images2.imgbox.com/3d/7a/1iDUHu8D_o.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  color: #fff;
+  position: relative;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+
+.about-us{
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+}
+
+.about-meet-our-pastor{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media screen and (max-width: 768px){
+  .about-meet-our-pastor{
+    grid-template-columns: 100%;
+    width: 100%;
+    grid-row-gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.picture-frame{
+  border: 3px solid #ead94c;
+  padding: 20px;
+}
+
+.about-our-pastor-image{
+  background-image: url(https://images2.imgbox.com/b7/2e/CmgGELRI_o.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 70vh;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+}
+
+.position-absolute{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+
+.about-pastor-bio{
+  text-align: left;
+  padding-top: 130px;
+}
+
+@media screen and (max-width: 770px){
+  .about-pastor-bio{
+    padding-top: 10px;
+  }
+}
+
+.about-pastor-bio .about-section-title{
+  text-align: left;
+}
+
+.about-title-wordings{
+  margin-bottom: 0;
+}
+
+.about-underline{
+    height: 5px;
+    width: 83px;
+    background-color: #ead94c;
+    margin-bottom: 15px;
+}
+
+.about-our-staff{
+  margin-top: 5rem;
+}
+
+.about-our-staff .about-section-title{
+  text-align: center;
+}
+
+.about-our-staff .about-underline{
+    margin: 0 auto 15px;
+    width: 70px;
+}
+
+.staff-photos{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.individual-staff-picture{
+  width: 95%;
+}
+
+@media screen and (max-width: 1000px){
+  .staff-photos{
+    grid-template-columns: 50% 50%;
+  }
+  .individual-staff-picture{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .staff-photos{
+    grid-template-columns: 100%;
+  }
+  .individual-staff-picture{
+    width: 80%;
+  }
+}
+
+
+.individual-staff-picture-cover{
+  text-align: center;
+  border: 3px solid #ead94c;
+  padding: 5px;
+  position: relative;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border: 140px solid transparent;
+  border-right: 0;
+  border-bottom: 140px solid #ead94c;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.triangle-text{
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: #ead94c;
+}
+
+.about-mission-and-vision{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #fff;
+  height: 100%;
+  background-color: #dd7373;
+}
+
+.about-mission{
+  background-color: #51a3a3;
+  padding: 3%;
+  padding-top: 8%;
+  clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+@media screen and (max-width: 768px){
+  .about-mission-and-vision{
+    grid-template-columns: 100%;
+  }
+  .about-mission{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+
+.about-vision{
+  background-color: #dd7373;
+  padding: 3%;
+  padding-top: 8%;
+}
+
+.about-statistics{
+  background-image: url(https://images2.imgbox.com/32/f8/4biieVsD_o.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  align-items: center;
+  height: 40vh;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .about-statistics{
+    display: block;
+    height: 100%;
+    padding: 5%;
+    margin-top: 50px;
+  }
+  .about-statistics-text{
+    margin: 25px;
+  }
+}
+
+.yellow-line{
+  height: 5px;
+  width: 65px;
+  background-color: #ead94c;
+  margin: 0 auto;
+}
+
+.about-statistics-text h1{
+  margin-bottom: 0;
 }
