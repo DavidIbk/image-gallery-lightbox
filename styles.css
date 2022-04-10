@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Roboto Condensed", sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 .font-awesome{
   color: #274f73;
   display: inline-block;
@@ -1193,7 +1197,8 @@ nav{
 /*OUR MINISTRIES HTML PAGE*/
 .our-ministries-results-and-search{
   display: grid;
-  grid-template-columns: 40% 55%;
+  grid-template-columns: 35% 60%;
+  margin-top: 50px;
 }
 
 .our-ministries-results{
@@ -1299,7 +1304,18 @@ nav{
   .our-ministries-results-and-search{
     display: block;
   }
+  .our-ministries-search-button{
+    display: block;
+    margin: 20px 0;
+  }
   .ministries{
     grid-template-columns: 100%;
+    padding-right: 20px;
   }
+  .individual-ministry{
+    height: 70vh;
+  }
+  .individual-ministry-3{
+    background-position: left;    
+    }
 }
