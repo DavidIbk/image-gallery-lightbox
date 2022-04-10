@@ -1307,6 +1307,7 @@ nav{
   .our-ministries-search-button{
     display: block;
     margin: 20px 0;
+    width: 30%;
   }
   .ministries{
     grid-template-columns: 100%;
@@ -1316,6 +1317,6 @@ nav{
     height: 70vh;
   }
   .individual-ministry-3{
-    background-position: left;    
+    background-position: left;
     }
 }
