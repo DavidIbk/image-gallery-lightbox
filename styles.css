@@ -8,6 +8,10 @@ body{
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .font-awesome{
   color: #274f73;
   display: inline-block;
@@ -1183,5 +1187,119 @@ nav{
     width: 50%;
     margin: 10px;
     margin-left: 0;
+  }
+}
+
+/*OUR MINISTRIES HTML PAGE*/
+.our-ministries-results-and-search{
+  display: grid;
+  grid-template-columns: 40% 55%;
+}
+
+.our-ministries-results{
+  padding-left: 30px;
+}
+
+.our-ministries-search{
+  padding-left: 30px;
+}
+
+.search-for-ministries{
+  width: 60%;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  display: inline;
+}
+
+.our-ministries-search-button{
+  width: 20%;
+  margin-left: 20px;
+}
+
+.ministries{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 30px 30px;
+  padding-right: 50px;
+  margin-top: 50px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.individual-ministry-1{
+  background-image: url(https://images2.imgbox.com/1d/59/17CukcED_o.jpg);
+}
+
+.individual-ministry-2{
+  background-image: url(https://images2.imgbox.com/d7/dc/huxeNNBq_o.jpg);
+}
+
+.individual-ministry-3{
+  background-image: url(https://images2.imgbox.com/a8/48/WavQsypt_o.jpg);
+}
+
+.individual-ministry-4{
+  background-image: url(https://images2.imgbox.com/60/2b/XCK14QMc_o.jpg);
+}
+
+.individual-ministry-5{
+  background-image: url(https://images2.imgbox.com/d0/40/skBtYbgU_o.jpg);
+}
+
+.individual-ministry-6{
+  background-image: url(https://images2.imgbox.com/85/6e/FhOKG2Ln_o.jpg);
+}
+
+.ministries-learn-more-button{
+  width: 50%;
+}
+
+.individual-ministry{
+  background-size: cover;
+  background-position: center;
+  padding: 3%;
+  text-align: left;
+  height: 80vh;
+  position: relative;
+}
+
+.individual-ministry-text{
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+}
+
+.buttonz{
+  text-align: center;
+}
+
+.our-ministry-buttonz{
+  background-color: #fff;
+  width: 5%;
+  border: 3px solid #274f73;
+  color: #274f73;
+  margin-right: 5px;
+}
+
+.our-ministry-buttonz:hover{
+  background: #ead94c;
+  border: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px){
+  .ministries{
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .our-ministries-results-and-search{
+    display: block;
+  }
+  .ministries{
+    grid-template-columns: 100%;
   }
 }
