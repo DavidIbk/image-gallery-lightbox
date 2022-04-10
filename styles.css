@@ -1320,3 +1320,65 @@ nav{
     background-position: left;
     }
 }
+
+/* CONTACT HTML PAGE */
+.asterisk{
+  color: #B11226;
+  font-size: 20px;
+}
+
+.contact-form{
+  padding: 20px;
+}
+
+.c-f-name-and-email{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 20px auto;
+}
+
+.contact-form-name, .contact-form-email {
+  width: 80%;
+  padding: 10px 40px 40px 20px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  display: inline;
+  margin-top: 1em;
+}
+
+.contact-form-subject, .contact-form-message{
+  width: 90%;
+  padding: 10px 40px 40px 20px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  display: inline;
+  margin-top: 1em;
+}
+
+.contact-form-message{
+  height: 30vh;
+}
+
+.c-f-subject, .c-f-message, .c-f-button{
+  margin: 20px auto;
+}
+
+.contact-form-button{
+  width: 20%;
+}
+
+@media screen and (max-width: 800px){
+  .c-f-name-and-email{
+    grid-template-columns: 100%;
+    margin: 20px auto;
+  }
+  .c-f-name{
+    margin: 20px 0;
+  }
+  .contact-form-button{
+    width: 35%;
+  }
+  .contact-form-name, .contact-form-email {
+    width: 90%;
+  }
+}
