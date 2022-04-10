@@ -1376,9 +1376,43 @@ nav{
     margin: 20px 0;
   }
   .contact-form-button{
-    width: 35%;
+    width: 45%;
   }
   .contact-form-name, .contact-form-email {
     width: 90%;
   }
+}
+
+/* EVENT HTML PAGE */
+.event-page{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.eventz-button{
+  width: 100%;
+}
+
+.eventz-1{
+  background-image: url(https://media.istockphoto.com/photos/little-kids-schoolchildren-pupils-students-running-hurrying-to-the-picture-id1338737959?b=1&k=20&m=1338737959&s=170667a&w=0&h=Wj4IEck0-UYQquyOfnORvotapuarDJ4fABPDm-9ITV0=);
+}
+
+.eventz-2{
+  background-image: url(https://media.istockphoto.com/photos/african-american-girl-raising-her-hands-while-sitting-on-her-desk-in-picture-id1323715308?b=1&k=20&m=1323715308&s=170667a&w=0&h=MeG-_I7iI4HsElwGrxCgMm7P4QkJsWGmwvcrOyYnGlc=);
+}
+
+.eventz-3{
+  background-image: url(https://media.istockphoto.com/photos/ready-for-class-picture-id1341425688?b=1&k=20&m=1341425688&s=170667a&w=0&h=zmHk_tND9t1ipdc3SILUWplKldS_lePoUXKJ3qtJFXo=);
+}
+
+.eventz-4{
+  background-image: url(https://media.istockphoto.com/photos/exterior-view-of-a-typical-american-school-building-picture-id1317007945?b=1&k=20&m=1317007945&s=170667a&w=0&h=L6exAWhMIvHk3ndOQdnRt6WNGfzcsh54WtCAVbO8NSk=);
+}
+
+.eventz-5{
+  background-image: url(https://media.istockphoto.com/photos/empty-classroom-picture-id1340516763?b=1&k=20&m=1340516763&s=170667a&w=0&h=zA05D-poPoIdoa06_vL2VLDOdBpPzMUKxUphHhx22jc=);
+}
+
+.eventz-6{
+  background-image: url(https://media.istockphoto.com/photos/african-american-female-student-studying-from-home-and-taking-notes-picture-id1300822206?b=1&k=20&m=1300822206&s=170667a&w=0&h=ZBnOh6rS_r1qQAy37llLvXgjByrVNoahWivH28T0ZBA=);
 }
