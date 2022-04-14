@@ -193,6 +193,8 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: darken;
   height: 100vh;
   padding: 20%;
 }
@@ -202,6 +204,8 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: darken;
   height: 100vh;
   padding: 20%;
 }
@@ -214,7 +218,7 @@ nav{
 
 .carousel-text{
   font-family: "Roboto Condensed", sans-serif;
-  color: #d1d1d1;
+  color: #fff;
   z-index: 1;
   text-align: center;
 }
@@ -346,6 +350,8 @@ nav{
 .children-ministry{
   background-image: url(https://images2.imgbox.com/a8/48/WavQsypt_o.jpg);
   background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   height: 50vh;
   position: relative;
 }
@@ -353,6 +359,8 @@ nav{
 .women-ministry{
   background-image: url(https://images2.imgbox.com/d7/dc/huxeNNBq_o.jpg);
   background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   height: 50vh;
   position: relative;
 }
@@ -360,6 +368,8 @@ nav{
 .men-ministry{
   background-image: url(https://images2.imgbox.com/1d/59/17CukcED_o.jpg);
   background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   height: 50vh;
   position: relative;
 }
@@ -669,6 +679,8 @@ nav{
   background-image: url(https://images2.imgbox.com/96/c7/80s8K9xx_o.jpg);
   background-position: center;
   background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   padding: 30px;
 }
 
@@ -676,6 +688,8 @@ nav{
   background-image: url(https://images2.imgbox.com/ae/19/ZZOS2bFe_o.jpg);
   background-position: center;
   background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   padding: 30px;
 }
 
@@ -683,6 +697,8 @@ nav{
   background-image: url(https://images2.imgbox.com/4c/70/U3fYqZgB_o.jpg);
   background-position: center;
   background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   padding: 30px;
 }
 
@@ -745,6 +761,8 @@ nav{
   background-image: url(https://images2.imgbox.com/3d/7a/1iDUHu8D_o.jpg);
   background-size: cover;
   background-position: center;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   height: 45vh;
   color: #fff;
   position: relative;
@@ -944,6 +962,8 @@ nav{
   background-image: url(https://images2.imgbox.com/32/f8/4biieVsD_o.jpg);
   background-position: center;
   background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   color: #fff;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -1051,6 +1071,8 @@ nav{
   background-image: url(https://images2.imgbox.com/a6/fa/JoMCYBl4_o.jpg);
   background-size: cover;
   background-position: center;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   width: 100%;
 }
 
@@ -1058,6 +1080,8 @@ nav{
   background-image: url(https://images2.imgbox.com/ad/f5/rvb0hSkH_o.jpg);
   background-size: cover;
   background-position: center;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   width: 100%;
   margin: 100px 0;
 }
@@ -1066,6 +1090,8 @@ nav{
   background-image: url(https://images2.imgbox.com/11/e7/XAmwk5HC_o.jpg);
   background-size: cover;
   background-position: center;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
   width: 100%;
 }
 
@@ -1264,6 +1290,8 @@ nav{
 .individual-ministry{
   background-size: cover;
   background-position: center;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: darken;
   padding: 3%;
   text-align: left;
   height: 80vh;
@@ -1415,4 +1443,211 @@ nav{
 
 .eventz-6{
   background-image: url(https://media.istockphoto.com/photos/african-american-female-student-studying-from-home-and-taking-notes-picture-id1300822206?b=1&k=20&m=1300822206&s=170667a&w=0&h=ZBnOh6rS_r1qQAy37llLvXgjByrVNoahWivH28T0ZBA=);
+}
+
+
+
+/*DONATIONS HTML PAGE*/
+#donation-section{
+  padding: 3%;
+}
+
+.form-radio{
+  display: none;
+}
+
+.display-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 4fr;
+  grid-gap: 50px;
+}
+
+.form-label-radio{
+  text-align: center;
+  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
+  padding: 20px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+input[type="radio"]:checked + .form-label-radio{
+  background-color: #ead94c;
+  color: #fff;
+}
+
+.form-input{
+  width: 90%;
+  padding: 10px 30px 30px 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline;
+}
+
+.form-input-enter-an-amount{
+  width: 90%;
+  padding: 10px 30px 30px 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline;
+}
+
+.display-grid-frequency{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 0;
+}
+
+.form-label-radio2{
+  text-align: center;
+  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
+  padding: 20px 120px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+input[type="radio"]:checked + .form-label-radio2{
+  background-color: #ead94c;
+  color: #fff;
+}
+
+.display-grid-donation-type{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  place-items: center;
+}
+
+.form-label-radio3{
+  text-align: center;
+  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
+  padding: 20px 70px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+
+input[type="radio"]:checked + .form-label-radio3{
+  background-color: #ead94c;
+  color: #fff;
+}
+
+.display-grid-payment-type{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  place-items: center;
+}
+
+.form-label-radio4{
+  text-align: center;
+  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
+  padding: 20px 250px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+input[type="radio"]:checked + .form-label-radio4{
+  background-color: #ead94c;
+  color: #fff;
+}
+
+.debit-card-payment{
+  display: none;
+  transform: translateX(-50px);
+  transition: transform 2s ease-in;
+}
+
+.debit-card-payment-active{
+  display: block;
+  transform: translateX(0);
+}
+
+.debit-card-payment-display-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 30px;
+  padding: 0 40px 0 80px;
+}
+
+.debit-card-payment-field-button{
+  width: 90%;
+}
+
+.paypal-payment{
+  padding: 0 40px 0 80px;
+  display: none;
+}
+
+.paypal-payment-active{
+  display: block;
+}
+
+.btn-paypal-payment{
+  width: 35%;
+}
+
+@media screen and (max-width: 768px){
+  .display-grid{
+    grid-template-columns: 50% 50%;
+    grid-gap: 40px;
+    grid-row-gap: 10px;
+  }
+  .form-label-radio{
+    padding: 10px 20%;
+  }
+  .form-input-enter-an-amount{
+    display: block;
+    width: 190%;
+    height: 50px;
+  }
+  .display-grid-frequency{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .form-label-radio2{
+    padding: 20px 40px;
+  }
+  .display-grid-donation-type{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 40px;
+  }
+  .form-label-radio3{
+    padding: 20px 3.5em;
+  }
+  .display-grid-payment-type{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+  }
+  .form-label-radio4{
+    padding: 20px 60px;
+  }
+  .debit-card-payment-display-grid{
+    display: block;
+    padding: 0 10px 0 10px;
+  }
+  .form-input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .debit-card-payment-field-button{
+    width: 100%;
+  }
+  .btn-paypal-payment{
+    width: 100%;
+  }
+  .paypal-payment{
+    padding: 0 20px 0 20px;
+    display: none;
+  }
+  .paypal-payment-active{
+    display: block;
+  }
 }
