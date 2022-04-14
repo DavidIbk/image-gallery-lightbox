@@ -1605,16 +1605,13 @@ input[type="radio"]:checked + .form-label-radio4{
     height: 50px;
   }
   .display-grid-frequency{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: block;
   }
   .form-label-radio2{
     padding: 20px 40px;
   }
   .display-grid-donation-type{
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-column-gap: 40px;
+    display: block;
   }
   .form-label-radio3{
     padding: 20px 3.5em;
